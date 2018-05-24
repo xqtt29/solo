@@ -16,7 +16,8 @@
 <div class="wrap">
     <div class="content">
         <div class="logo">
-            <a href="https://b3log.org" target="_blank">
+            <!-- 修改为本站链接 -->
+            <a href="https://www.xqtt29.com" target="_blank">
                 <img width="128" border="0" alt="Solo" title="Solo" src="${staticServePath}/images/logo.png"/>
             </a>
         </div>
@@ -27,8 +28,12 @@
     </div>
 </div>
 <div class="footerWrapper">
-    <div class="footer">
+    <div class="footer" style="text-align:center;padding:30px 0;padding-top:30px">
+        <!-- 修改为本站底部 
         Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> • <a href="https://hacpai.com/tag/Solo" target="_blank">Solo</a> ${version}
+        -->
+        <a href="https://github.com/xqtt29/solo" target="_blank"><font color="#ff4d3a">本站源码</font></a>&nbsp;   • &nbsp;
+        <font color="#ff4d3a">湘ICP备17007011号-1</font>
     </div>
 </div>
 </body>

@@ -10,10 +10,13 @@
     Theme <a rel="friend" href="https://github.com/b3log/solo-skins" target="_blank">9IPHP</a> by <a href="https://github.com/9IPHP/9IPHP" target="_blank">9IPHP</a> & <a href="http://vanessa.b3log.org" target="_blank">Vanessa</a>
     -->
     <!--增加自己的底部-->
-    &copy; ${year}
-    ${footerContent}
+    <font color="#ff4d3a">&copy; ${year}</font>
+    <font color="#ff4d3a">${footerContent}</font>
     <a href="${servePath}">${blogTitle}</a>  &nbsp;   • &nbsp;<a href="https://github.com/xqtt29/solo" target="_blank">本站源码</a>&nbsp;   • &nbsp;
-             湘ICP备17007011号-1
+    <font color="#ff4d3a">湘ICP备17007011号-1</font> &nbsp; • &nbsp;
+    <a href="${loginURL}">
+        <i class="icon-login"></i> 后台通道
+    </a>
     
 </footer>
 <div class="icon-up" onclick="Util.goTop()"></div>

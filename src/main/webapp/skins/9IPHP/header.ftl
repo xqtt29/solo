@@ -7,6 +7,7 @@
                 </a>
             </h1>
             <small> &nbsp; ${blogSubtitle}</small>
+                    <!--取消登录注册入口
             <div class="fn-right">
                 <#if isLoggedIn>
                     <a href="${servePath}/admin-index.do#main" title="${adminLabel}">
@@ -23,7 +24,7 @@
                         <i class="icon-register"></i> ${registerLabel}
                     </a>
                 </#if>
-            </div>
+            </div>-->
         </div>
     </div>
 
@@ -50,6 +51,11 @@
                 </a>
                 <a rel="archive" href="${servePath}/links.html">
                     <i class="icon-link"></i> ${linkLabel}
+                </a>
+                <!--新增捐赠栏目
+                -->
+                <a rel="archive" href="${servePath}/contribute.html">
+                    <i class="icon-views"></i> 捐赠
                 </a>
                 <!--注释rss栏目
                 <a rel="alternate" href="${servePath}/blog-articles-rss.do" rel="section">
