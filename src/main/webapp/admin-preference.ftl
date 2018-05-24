@@ -20,6 +20,7 @@
                 <a href="#tools/preference/setting">${paramSettingsLabel}</a>
             </div>
         </li>
+        <!--屏蔽七牛和B3log配置
         <li>
             <div id="tabPreference_qiniu">
                 <a href="#toos/preference/qiniu">${qiniuLabel}</a>
@@ -30,6 +31,7 @@
                 <a href="#tools/preference/solo">B3log</a>
             </div>
         </li>
+        -->
     </ul>
 </div>
 <div id="tabPreferencePanel" class="sub-tabs-main">
@@ -119,8 +121,10 @@
             <tbody>
             <tr>
                 <td>
+                    <!--屏蔽推荐和指南
                     <a href="https://github.com/b3log/solo/issues/12449" target="_blank">新皮肤推荐</a> •
                     <a href="https://hacpai.com/article/1493814851007" target="_blank">皮肤开发指南</a>
+                    -->
                     <button style="float: right" onclick="admin.preference.update()">${updateLabel}</button>
                 </td>
             </tr>
@@ -131,8 +135,10 @@
             </tr>
             <tr>
                 <td>
+                    <!--屏蔽推荐和指南
                     <a href="https://github.com/b3log/solo/issues/12449" target="_blank">新皮肤推荐</a> •
                     <a href="https://hacpai.com/article/1493814851007" target="_blank">皮肤开发指南</a>
+                    -->
                     <button style="float: right" onclick="admin.preference.update()">${updateLabel}</button>
                 </td>
             </tr>
