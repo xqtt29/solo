@@ -16,8 +16,8 @@
     <font color="#ff4d3a">湘ICP备17007011号-1</font> &nbsp; • &nbsp;
     <a href="${loginURL}">
         <i class="icon-login"></i> 后台通道
-    </a>
-    
+    </a>&nbsp; • &nbsp;
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273781196'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1273781196%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 </footer>
 <div class="icon-up" onclick="Util.goTop()"></div>
 

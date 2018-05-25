@@ -17,6 +17,7 @@
         <input value="${keyword}" id="keyword" onkeypress="if(event.keyCode===13){document.getElementById('searchBtn').click()}">
         <button id="searchBtn" onclick="window.location.href='${servePath}/search?keyword=' + document.getElementById('keyword').value">搜索</button>
     </div>
+    <!--屏蔽登陆注册入口
     <span class="fn-right">
     <#if isLoggedIn>
         <a href="${servePath}/admin-index.do#main">${adminLabel}</a> &nbsp;
@@ -26,6 +27,7 @@
         &nbsp;   <a href="${servePath}/register">${registerLabel}</a>
     </#if>
         </span>
+    -->
 </div>
 
 <div class="search">
@@ -89,7 +91,11 @@ No Result, Return to <a href="${servePath}">Index</a> or <a href="https://hacpai
 
 <div class="footerWrapper">
     <div class="footer">
+        <!-- 修改为本站底部 
         Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> • Solo ${version}
+        -->
+        <a href="https://github.com/xqtt29/solo" target="_blank"><font color="#ff4d3a">本站源码</font></a>&nbsp;   • &nbsp;
+        <font color="#ff4d3a">湘ICP备17007011号-1</font>
     </div>
 </div>
 </body>
