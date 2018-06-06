@@ -13,7 +13,7 @@
     <font color="#ff4d3a">&copy; ${year}</font>
     <font color="#ff4d3a">${footerContent}</font>
     <a href="${servePath}">${blogTitle}</a>  &nbsp;   • &nbsp;<a href="https://github.com/xqtt29/solo" target="_blank">本站源码</a>&nbsp;   • &nbsp;
-    <font color="#ff4d3a">湘ICP备17007011号-1</font> &nbsp; • &nbsp;
+    <a href="http://www.miitbeian.gov.cn" target="_blank"><font color="#ff4d3a">湘ICP备18010798号-1</font></a> &nbsp; • &nbsp;
     <a href="${loginURL}">
         <i class="icon-login"></i> 后台通道
     </a>&nbsp; • &nbsp;

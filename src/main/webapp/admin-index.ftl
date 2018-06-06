@@ -152,7 +152,7 @@
                 Powered by <a href="https://b3log.org" target="_blank">B3log 开源</a> • <a href="https://hacpai.com/tag/Solo" target="_blank">Solo</a> ${version}
                 -->
                 <a href="https://github.com/xqtt29/solo" target="_blank">本站源码</a>&nbsp;   • &nbsp;
-                                                湘ICP备17007011号-1
+                <a href="http://www.miitbeian.gov.cn" target="_blank">湘ICP备18010798号-1</a>
             </div>
         </div>
         <script src="${staticServePath}/js/lib/compress/admin-lib.min.js"></script>
