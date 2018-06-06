@@ -6,6 +6,6 @@
 <div class="a-error">
     Please
     <a href="${loginURL}">Login</a>.
-    Return to <a href="${servePath}">Index</a> or <a href="https://hacpai.com">HacPai</a>.
+    Return to <a href="${servePath}">Index</a>
 </div>
 </@commonPage>
