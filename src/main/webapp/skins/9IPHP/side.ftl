@@ -49,7 +49,7 @@
                         ${statistic.statisticPublishedBlogCommentCount}
                         <span class="ft-gray">${commentLabel}</span></a><br/>
                     ${statistic.statisticBlogViewCount} <span class="ft-gray">${viewLabel}</span><br/>
-                    ${onlineVisitorCnt} <span class="ft-gray">${onlineVisitorLabel}</span>
+                    <!--${onlineVisitorCnt} <span class="ft-gray">${onlineVisitorLabel}</span>-->
                 </div>
             </main>
         </div>
