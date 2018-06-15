@@ -4,7 +4,7 @@
     <head>
         <@head title="${blogTitle}">
         <meta name="keywords" content="${metaKeywords},${archiveLabel}"/>
-        <meta name="description" content="${metaDescription},${archiveLabel}"/>
+        <meta name="description" content="${metaDescription}${archiveLabel}"/>
         </@head>
     </head>
     <body>

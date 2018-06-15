@@ -4,7 +4,7 @@
     <head>
         <@head title="${blogTitle}">
         <meta name="keywords" content="${metaKeywords},${dynamicLabel}"/>
-        <meta name="description" content="${metaDescription},${dynamicLabel}"/>
+        <meta name="description" content="${metaDescription}${dynamicLabel}"/>
         </@head>
     </head>
     <body>

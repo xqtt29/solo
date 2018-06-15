@@ -3,8 +3,8 @@
 <html>
     <head>
         <@head title="${blogTitle}">
-        <meta name="keywords" content="${metaKeywords},${archiveLabel}"/>
-        <meta name="description" content="${metaDescription},${archiveLabel}"/>
+        <meta name="keywords" content="${metaKeywords},友情链接"/>
+        <meta name="description" content="${metaDescription}友情链接"/>
         </@head>
     </head>
     <body>

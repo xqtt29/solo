@@ -75,6 +75,7 @@
 <div class="responsive fn-none">
     <i class="icon-list"></i>
     <ul class="list">
+        <!--不开放
         <#if isLoggedIn>
             <li>
                 <a href="${servePath}/admin-index.do#main" title="${adminLabel}">
@@ -97,7 +98,9 @@
                         <i class="icon-register"></i> ${registerLabel}
                     </a>
                 </li>
+               
         </#if>
+        -->
         <li>
             <a href="${servePath}">
                 <i class="icon-home"></i>
@@ -129,6 +132,12 @@
         <li>
             <a rel="archive" href="${servePath}/links.html">
                 <i class="icon-link"></i> ${linkLabel}
+            </a>
+        </li>
+        <!--新增捐赠栏目 -->
+        <li>
+            <a rel="archive" href="${servePath}/contribute.html">
+                <i class="icon-views"></i> 捐赠
             </a>
         </li>
         <!--注释RSS栏目

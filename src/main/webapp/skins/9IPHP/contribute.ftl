@@ -3,8 +3,8 @@
 <html>
     <head>
         <@head title="${blogTitle}">
-        <meta name="keywords" content="${metaKeywords},${archiveLabel}"/>
-        <meta name="description" content="${metaDescription},${archiveLabel}"/>
+        <meta name="keywords" content="${metaKeywords},捐赠"/>
+        <meta name="description" content="${metaDescription}捐赠"/>
         </@head>
     </head>
     <body>
@@ -12,18 +12,15 @@
         <div class="wrapper">
             <div class="main-wrap">
                 <main class="other">
-                    <div style="float: left; padding:100px 0 0 100px">
                     <div class="title">
                          <h2><i class="icon-link"></i>
                              &nbsp;微信</h2>
-                    </div>
                     <img src="${staticServePath}/images/wx.png"/>
                     </div>
-                    <div style="float: right; padding:100px 100px 0 0">
+                    <hr/>
                     <div class="title">
                          <h2><i class="icon-link"></i>
                              &nbsp;支付宝</h2>
-                    </div>
                     <img src="${staticServePath}/images/zfb.png"/>
                     </div>
                 </main>
